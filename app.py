@@ -13,7 +13,13 @@ st.set_page_config(page_icon=":bar_chart:",
 
 df = pd.read_excel('dashboard.xlsx', engine='openpyxl',  nrows=100,
                    )
+st.markdown("[Dashboard](https://econobilidade.smartbusiness.com.br/reports/dashboard/)")
 
+st.markdown("[Bolsão](https://econobilidade.smartbusiness.com.br/aprovados/dashboard/)")
+
+st.markdown("[Baixar Propostas](https://econobilidade.smartbusiness.com.br/aprovados/call/)")
+
+st.markdown("[Serviços Whatsapp](https://wa.me/16477241218)")
 
 st.sidebar.header("Please Filter Here:")
 
